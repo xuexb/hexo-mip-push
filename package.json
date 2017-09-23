@@ -1,0 +1,32 @@
+{
+  "name": "hexo-mip-push",
+  "version": "0.0.1",
+  "description": "为 Hexo MIP 主题自动推送到站长平台",
+  "main": "index.js",
+  "scripts": {
+    "preversion": "npm run lint",
+    "postversion": "git push origin master && git push origin --tags",
+    "lint": "fecs check index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuexb/hexo-mip-push.git"
+  },
+  "keywords": [
+    "hexo",
+    "mip",
+    "mip-push"
+  ],
+  "author": "xuexb <fe.xiaowu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuexb/hexo-mip-push/issues"
+  },
+  "homepage": "https://github.com/xuexb/hexo-mip-push#readme",
+  "dependencies": {
+    "mip-push": "^0.1.1"
+  },
+  "devDependencies": {
+    "fecs": "^1.4.1"
+  }
+}
