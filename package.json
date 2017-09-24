@@ -1,6 +1,6 @@
 {
   "name": "hexo-mip-push",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "为 Hexo MIP 主题自动推送到站长平台",
   "main": "index.js",
   "scripts": {
