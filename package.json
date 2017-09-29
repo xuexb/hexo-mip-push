@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/xuexb/hexo-mip-push#readme",
   "dependencies": {
+    "glob": "^7.1.2",
     "mip-push": "^0.1.1"
   },
   "devDependencies": {
